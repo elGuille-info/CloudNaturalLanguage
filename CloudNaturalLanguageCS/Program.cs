@@ -20,21 +20,15 @@ namespace NaturalLanguageApiDemo
         static void Main(string[] args)
         {
             //var text = "Yukihiro Matsumoto is great!";
-            //var text = "Hola, ¿tienes un coche?";
-            //var text = "Hi!, have you a car?";
-            //var text = "Eliza, soy Guilllermo, ¿tienes coche?";
-            //var text = "El miércoles 8 de Febrero voy en bici al camino de Santiago desde Sarria ¿crees que aguantaré?";
-            //var text = "Tengo un Jeep Cherokee 4x4 Turbo, que me costó 4800€, es de segunda mano.";
-            //var text = "Estoy contento con mi Jeep Cherokee 4x4 Turbo, que me costó 4800€, es de segunda mano.";
-            //var text = "Estoy contento con mi Jeep Cherokee 4x4 turbo de segunda mano. Antes tenía un Ford Escort, era viejo, pero me era de utilidad, fui varias veces con él a Portugal a ver a Mooji, un maestro Advaita.";
-            //var text = "Estoy enfadado con el comportamiento de la chica que trabaja en la clínica veterinaria San Fernando, en Nerja";
-            //var text = "I hate the girl in San Fernando's clinic. I'm talking about San Fernando's veterinarian clinic in Nerja";
-            //var text = "'Lawrence of Arabia' is a highly rated film biography about British Lieutenant T.E.Lawrence.Peter O'Toole plays Lawrence in the film.";
-            var text = "El 8 de Febrero voy en bici al Camino de Santiago desde Sarria ¿crees que aguantaré?";
+            var text = "'Lawrence of Arabia' is a highly rated film biography about British Lieutenant T.E.Lawrence.Peter O'Toole plays Lawrence in the film.";
             Console.WriteLine("Ejemplos de Google.Cloud.Language");
+            Console.WriteLine();
+            Console.WriteLine("Pruebas de Google Cloud Natural Language");
+            Console.WriteLine();
             Console.WriteLine("  Creando el cliente...");
             client = LanguageServiceClient.Create();
-            Console.WriteLine("Pruebas de Google Cloud Natural Language");
+            Console.WriteLine();
+            
             bool repitiendo = false;
             do
             {
