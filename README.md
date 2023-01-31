@@ -1,4 +1,4 @@
-# CloudNaturalLanguage
+# Ejemplos para .NET de Google Cloud Natural Language
 
 Ejemplos en Visual Basic y C# para usar las API de Google Cloud Natural Language y analizar un texto.
 
