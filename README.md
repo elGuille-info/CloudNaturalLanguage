@@ -33,7 +33,7 @@ Para crear un proyecto nuevo (si ya tienes el fichero **key.json**)<br>
 5.3- En IAM, añadir la cuenta (indicada en el proyecto de Google Cloud) en +OTORGAR ACCESO
 	Solo estará la principal y/o las otras añadidas
 5.4- Si se ha usado otra cuenta, estará en IAM>Cuentas de Servicio
-	https://console.cloud.google.com/iam-admin/serviceaccounts
+	https://console.cloud.google.com/iam-admin/serviceaccounts (tendrás que elegir el proyecto que has creado para este caso)
 6- Modificar Program.cs (o Programa.vb) para usar el código que accede a la API de Natural Language
 7- Asegurase que está creada la variable de entorno GOOGLE_APPLICATION_CREDENTIALS=key.json
 	set GOOGLE_APPLICATION_CREDENTIALS=key.json
